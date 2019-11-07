@@ -1,0 +1,150 @@
+.title{
+    width:100%;
+    background-color:mediumblue;
+
+}
+.title h1{
+    color: coral;
+    padding:30px;
+    padding-bottom:5px;
+    text-align:center;
+    font-size: 1.85em;
+    font-family:'Cutive';
+
+}
+
+.image a{
+    padding: 10px;
+    flex-basis: 25%;
+}
+
+.image a img{
+    width: 500px;
+    position: relative;
+    padding: 10px;
+    border-radius: 15px;
+
+    animation-name:img-shrink;
+    animation-duration:0.5s;
+    animation-iteration-count:1;
+    animation-fill-mode: forwards;
+
+}
+
+.image a img:hover{
+    position: relative;
+    animation-name:img-grow;
+    animation-duration:0.5s;
+    animation-iteration-count:1;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes img-grow{
+    from { width: 500px; right:0px; }
+    to { width: 520px; right:10px; }
+}
+
+@keyframes img-shrink{
+    from { width: 520px; right:10px; }
+    to { width: 500px; right:0px; }
+}
+
+.allimage {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fit, 525px);
+    justify-content: center;
+    align-items: center;
+}
+
+.allsite{
+    padding:15px;
+    padding-top:0px;
+    margin-top:-10px;
+    display: flex;
+    justify-content: center;
+}
+
+.site{
+    display:inline;
+    padding: 10px;
+    padding-top:0px;
+}
+
+@keyframes menu-grow{
+    from {font-size: 1em; text-shadow: 0px 0px;}
+    to {font-size:1.2em; text-shadow: 3px 3px 5px black; }
+}
+@keyframes menu-shrink{
+    from {font-size: 1.2em; text-shadow: 3px 3px 5px black; }
+    to {font-size:1em; text-shadow: 0px 0px;}
+}
+
+.site a:hover{
+    animation-name:menu-grow;
+    animation-duration:0.5s;
+    animation-iteration-count:1;
+    animation-fill-mode: both;
+}
+
+.site a{
+    font-family:'Cutive';
+    color:coral;
+    font-size:1em;
+
+    animation-name:menu-shrink;
+    animation-duration:0.5s;
+    animation-iteration-count:1;
+    animation-fill-mode: both;
+}
+
+.about{
+    width: 90%;
+    /*
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    */
+    align-self: center;
+    display: flex;
+}
+
+.myself {
+    padding:50px;
+
+}
+
+.myself img {
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.standard-text{
+    position: relative;
+    top:20px;
+    font-family:'Cutive';
+    font-size: 1.25em;
+    padding: 25px;
+    padding-left: 5px;
+}
+
+.uwu p{
+    position: relative;
+    bottom: 20px;
+    font-family:'Cutive';
+    padding: 25px;
+    font-size: 0.5em;
+    color:#c4cccf;
+    
+}
+
+.uwu{
+    width: 100%;
+    height: 50px;
+}
+
+html{
+    background-color:lightblue;
+}
