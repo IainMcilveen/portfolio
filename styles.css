@@ -1,3 +1,29 @@
+html{
+    background-color:White;
+}
+
+.about{
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    display: inline-block;
+}
+
+.myself {
+    padding:30px;
+    padding-bottom:15px;
+}
+
+.myself img {
+    width: 500px;
+    border-radius: 50%;
+}
+
+.title{
+    padding:5px;
+    padding-bottom:0px;
+}
+
 .title h1{
     color: Black;
     padding:5px;
@@ -15,36 +41,27 @@
     justify-content: center;
 }
 
-.about{
-    width: 100%;
-    align-self: center;
-    text-align: center;
-    display: inline-block;
-}
-
-.myself {
-    padding:30px;
-}
-
-.myself img {
-    width: 500px;
-    border-radius: 50%;
-}
-
 .standard-text{
     position: relative;
-    top:20px;
     font-family:'Cutive';
     font-size: 1.25em;
+    padding-top: 5px;
     padding: 25px;
-    padding-left: 5px;
+    bottom: 15px;
 }
 
 .links{
-    padding: 50px;
+    
+    padding: 25px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
 }
 
-
-html{
-    background-color:White;
+.links a{
+    color: black;
+    padding: 25px;
+    padding-top: 5px;
+    font-size: 2.5em;
 }
+
