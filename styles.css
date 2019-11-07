@@ -11,11 +11,11 @@ html{
 
 .myself {
     padding:30px;
-    padding-bottom:15px;
+    padding-bottom:5px;
 }
 
 .myself img {
-    width: 500px;
+    height: 450px;
     border-radius: 50%;
 }
 
@@ -26,17 +26,14 @@ html{
 
 .title h1{
     color: Black;
-    padding:5px;
     text-align:center;
     font-size: 1.85em;
     font-family:'Cutive';
-
 }
 
 .allsite{
     padding:15px;
     padding-top:0px;
-    margin-top:-10px;
     display: flex;
     justify-content: center;
 }
@@ -45,23 +42,19 @@ html{
     position: relative;
     font-family:'Cutive';
     font-size: 1.25em;
-    padding-top: 5px;
-    padding: 25px;
-    bottom: 15px;
+    padding: 1em;
 }
 
 .links{
-    
-    padding: 25px;
-    padding-top: 5px;
+    padding: 1.5em;
     display: flex;
     justify-content: center;
 }
 
 .links a{
     color: black;
-    padding: 25px;
-    padding-top: 5px;
     font-size: 2.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
